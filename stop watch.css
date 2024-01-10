@@ -1,0 +1,73 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(stopwatchbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.title{
+    color:antiquewhite;
+    font-size: 50px;
+    margin-top:-30px;
+    margin-bottom:30px;
+    font-weight: bold;
+    padding-left:200px;
+}
+.container{   
+    border: 3px solid #002680;
+    height:240px;
+    width:800px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px;
+}
+.time{
+    display:flex;color:#002680;
+    align-items: center;
+    justify-content: center;
+    font-size:100px;
+    font-weight:bold;
+    margin-top:10px;
+}
+.time-labels{
+    display:inline-block;
+    text-align:center;
+    font-size:25px;
+    margin-bottom:20px;
+    margin-top:-15px;
+    font-weight: bold;
+    color:antiquewhite;
+}
+.time-labels label{
+    padding-left:120px;
+}
+
+.buttons{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:10px;
+    color:antiquewhite;
+}
+.btn{
+    cursor:pointer;
+    border:1px solid #002680;
+    background: none;
+    color:white;
+    font-weight: bold;
+    padding:8px 40px;
+    font-size:20px;
+    border-radius: 25px;
+    transition:background-color, box-shadow 0.5s;
+}
+.btn:hover{
+    background-color: #002680;
+    box-shadow: 2px 2px 5px black;
+}
